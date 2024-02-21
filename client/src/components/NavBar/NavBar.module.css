@@ -1,0 +1,24 @@
+body {
+    margin-top: 1rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navLink{
+    color: black;
+}
+
+.navLink:hover{
+    color: #0056b3;
+}

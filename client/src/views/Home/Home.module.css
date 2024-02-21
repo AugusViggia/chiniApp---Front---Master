@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 100vw;
+    padding: 20px;
+}
