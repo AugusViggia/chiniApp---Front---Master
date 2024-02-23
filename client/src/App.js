@@ -5,7 +5,7 @@ import Products from "./views/Products/Products";
 import Cart from "./views/Cart/Cart";
 import NavBar from "./components/NavBar/NavBar";
 import Loading from "./components/Loading/Loading";
-import Detail from "./components/Detail/Detail";
+import Detail from "./views/ProductDetail/Detail";
 import "./App.css";
 
 function App() {
