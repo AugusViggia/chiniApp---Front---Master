@@ -23,11 +23,12 @@ function Cart() {
   );
 
   useEffect(() => {
+    localStorage.setItem("cart", JSON.stringify(cartList));
+
     const totalSum = cartList.reduce(
       (sum, product) => sum + product.price * product.quantity,
       0
     );
-
     setTotalPrice(totalSum);
   }, [cartList]);
 
